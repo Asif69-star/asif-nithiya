@@ -1,0 +1,32 @@
+Notepad++ v8.6.4 regression-fix:
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Questionmatic Love 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <!-- 🥰 Intro Section -->
+    <div id="intro">
+      <h1>Happy 3 Magical Months of Our Anniversary <span>❤️</span></h1>
+      <p>Now first thing first. Answer some of my questions, then we will move forward.</p>
+      <button id="startBtn">Let’s begin.</button>
+    </div>
+
+    <!-- ❓ Question Section -->
+    <div id="qaSection" style="display:none;">
+      <h2 id="question"></h2>
+      <input type="text" id="answerInput" placeholder="Type your answer here..." />
+      <button id="nextBtn">Next</button>
+      <p id="response"></p>
+      <!-- 🎁 Surprise Link -->
+      <a href="surprise.html" id="nextPageLink" class="btn" style="display: none;">🎁 Continue the surprise</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
